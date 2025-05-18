@@ -27,19 +27,19 @@ const apiKey = "99ac20d963f0b2a66e07236174063cec";
                 document.querySelector(".about").innerHTML = `${data.weather[0].main}`;
 
                 if (data.weather[0].main == "Clouds") {
-                    weatherIcon.src = "/images/clouds.png"
+                    weatherIcon.src = "images/clouds.png"
                 }
                 if (data.weather[0].main == "Clear") {
-                    weatherIcon.src = "/images/clear.png"
+                    weatherIcon.src = "images/clear.png"
                 }
                 if (data.weather[0].main == "Drizzle") {
-                    weatherIcon.src = "/mages/drizzle.png"
+                    weatherIcon.src = "mages/drizzle.png"
                 }
                 if (data.weather[0].main == "Mist") {
-                    weatherIcon.src = "/images/mist.png"
+                    weatherIcon.src = "images/mist.png"
                 }
                 if (data.weather[0].main == "Snow") {
-                    weatherIcon.src = "/images/snow.png"
+                    weatherIcon.src = "images/snow.png"
                 }
 
                 document.querySelector(".weather").style.display = "block"
